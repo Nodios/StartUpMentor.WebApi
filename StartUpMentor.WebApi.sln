@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUpMentor.WebApi", "StartUpMentor.WebApi\StartUpMentor.WebApi.csproj", "{AA80C0A2-250D-4120-8965-7C2DFA9AD2B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUpMentor.WebApi.Tests", "StartUpMentor.WebApi.Tests\StartUpMentor.WebApi.Tests.csproj", "{C1629F38-580D-4BB9-A033-506FD5820B74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{537EE5B0-CD16-477C-9E90-FAD9249B9653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUpMentor.Common", "StartUpMentor.Common\StartUpMentor.Common.csproj", "{262D0BFB-26C7-4490-A6D2-12A9196CC7F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUpMentor.DAL", "StartUpMentor.DAL\StartUpMentor.DAL.csproj", "{49F24980-ABAA-4511-AA87-463755C8E427}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUpMentor.Model", "StartUpMentor.Model\StartUpMentor.Model.csproj", "{21EFCF8E-A497-4C1F-9D29-59D56727A636}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUpMentor.Model.Common", "StartUpMentor.Model.Common\StartUpMentor.Model.Common.csproj", "{9B74E98E-20CB-4A55-A435-6509426F40EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUpMentor.Repository", "StartUpMentor.Repository\StartUpMentor.Repository.csproj", "{41D93BA3-5A6F-47C2-883B-E68C07BA9A15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUpMentor.Repository.Common", "StartUpMentor.Repository.Common\StartUpMentor.Repository.Common.csproj", "{A2C6E339-8CCD-4B67-94D7-6331D9378080}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUpMentor.Service", "StartUpMentor.Service\StartUpMentor.Service.csproj", "{E97EC1E5-637A-4255-9C5E-94A580EF3F02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartUpMentor.Service.Common", "StartUpMentor.Service.Common\StartUpMentor.Service.Common.csproj", "{DD86BFEC-EAF4-4235-876E-3564C86740EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AA80C0A2-250D-4120-8965-7C2DFA9AD2B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA80C0A2-250D-4120-8965-7C2DFA9AD2B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA80C0A2-250D-4120-8965-7C2DFA9AD2B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA80C0A2-250D-4120-8965-7C2DFA9AD2B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1629F38-580D-4BB9-A033-506FD5820B74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1629F38-580D-4BB9-A033-506FD5820B74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1629F38-580D-4BB9-A033-506FD5820B74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1629F38-580D-4BB9-A033-506FD5820B74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{262D0BFB-26C7-4490-A6D2-12A9196CC7F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262D0BFB-26C7-4490-A6D2-12A9196CC7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262D0BFB-26C7-4490-A6D2-12A9196CC7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262D0BFB-26C7-4490-A6D2-12A9196CC7F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F24980-ABAA-4511-AA87-463755C8E427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F24980-ABAA-4511-AA87-463755C8E427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F24980-ABAA-4511-AA87-463755C8E427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F24980-ABAA-4511-AA87-463755C8E427}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21EFCF8E-A497-4C1F-9D29-59D56727A636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21EFCF8E-A497-4C1F-9D29-59D56727A636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21EFCF8E-A497-4C1F-9D29-59D56727A636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21EFCF8E-A497-4C1F-9D29-59D56727A636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B74E98E-20CB-4A55-A435-6509426F40EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B74E98E-20CB-4A55-A435-6509426F40EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B74E98E-20CB-4A55-A435-6509426F40EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B74E98E-20CB-4A55-A435-6509426F40EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41D93BA3-5A6F-47C2-883B-E68C07BA9A15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41D93BA3-5A6F-47C2-883B-E68C07BA9A15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41D93BA3-5A6F-47C2-883B-E68C07BA9A15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41D93BA3-5A6F-47C2-883B-E68C07BA9A15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2C6E339-8CCD-4B67-94D7-6331D9378080}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2C6E339-8CCD-4B67-94D7-6331D9378080}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2C6E339-8CCD-4B67-94D7-6331D9378080}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2C6E339-8CCD-4B67-94D7-6331D9378080}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E97EC1E5-637A-4255-9C5E-94A580EF3F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97EC1E5-637A-4255-9C5E-94A580EF3F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97EC1E5-637A-4255-9C5E-94A580EF3F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97EC1E5-637A-4255-9C5E-94A580EF3F02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD86BFEC-EAF4-4235-876E-3564C86740EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD86BFEC-EAF4-4235-876E-3564C86740EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD86BFEC-EAF4-4235-876E-3564C86740EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD86BFEC-EAF4-4235-876E-3564C86740EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1629F38-580D-4BB9-A033-506FD5820B74} = {537EE5B0-CD16-477C-9E90-FAD9249B9653}
+	EndGlobalSection
+EndGlobal
